@@ -2,6 +2,8 @@
 
 本机 Express 只读. Polymarket ask + Pinnacle + Stake/Duel via odds-api.io.
 
+实验性 `public/order-v1.html` 和下单 ticket 截图已删除（未接 server 路由，也不下单）。
+
 ## start
 cd /workspace/arb-radar-web
 npm install
