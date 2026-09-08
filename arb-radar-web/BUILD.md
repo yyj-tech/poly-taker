@@ -9,8 +9,9 @@ npm install
 npm start
 http://127.0.0.1:8787
 
-## default token (first boot)
--QnlaQoXEaq6
+## first-boot token
+
+Generated on first start and written to `data/keys.json` (gitignored). Printed once in the startup log. Do not commit it.
 
 ## local source pull 2026-08-17 15:54 CST
 - odds-api.io: OK, 45 Dota2/LoL events, Stake+Duel on watchlist except T1 vs DNS (no price).

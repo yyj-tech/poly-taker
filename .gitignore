@@ -8,6 +8,25 @@ __pycache__/
 node_modules/
 .DS_Store
 scans/
+arb-radar/scans/
 arb-radar-web/data/keys.json
 **/keys.json
 !**/keys.example.json
+
+# regenerated scan / watch dumps — do not re-commit
+arb-radar/hourly-*.md
+arb-radar/hourly-*.json
+arb-radar/write_watch_*.py
+arb-radar/latest-*.md
+arb-radar/latest-*.json
+arb-radar/*-report.md
+arb-radar/*-table.md
+arb-radar/*-table.json
+arb-radar/*-markets.json
+arb-radar/watch-*.md
+arb-radar/watch-*.json
+arb-radar/*.jsonl
+arb-radar/_pm_slugs.json
+arb-radar/*.png
+arb-radar-web/tickets/
+arb-radar-web/public/order-v1.html
