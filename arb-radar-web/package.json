@@ -1,0 +1,18 @@
+{
+  "name": "arb-radar-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "私人只读套利看板：Polymarket + Pinnacle + Stake/Duel（odds-api.io）",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "undici": "^6.21.0"
+  }
+}

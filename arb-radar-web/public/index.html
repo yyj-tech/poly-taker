@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>套利雷达</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div id="login" class="login hidden">
+    <form id="login-form" class="login-card">
+      <h1>套利雷达</h1>
+      <p>私人只读看板，输入访问口令</p>
+      <input id="login-token" type="password" autocomplete="current-password" placeholder="口令" />
+      <button type="submit">进入</button>
+      <p id="login-err" class="err"></p>
+    </form>
+  </div>
+
+  <header class="top">
+    <div class="brand">
+      <strong>套利雷达</strong>
+      <span class="muted">只读 · 不下单</span>
+    </div>
+    <div id="fresh" class="fresh">等待数据</div>
+    <div id="sources" class="sources"></div>
+    <div id="hv" class="hv">高价值 0</div>
+    <button id="btn-reload" type="button" class="primary">刷新赔率</button>
+    <button id="btn-settings" type="button">设置</button>
+  </header>
+
+  <main class="grid">
+    <section class="card">
+      <div class="card-head">
+        <h2>价格对照</h2>
+        <button type="button" class="mini js-refresh">刷新</button>
+      </div>
+      <div class="scroll">
+        <table id="tbl-prices">
+          <thead>
+            <tr>
+              <th>状态</th><th>事件</th><th>队A</th><th>队B</th>
+              <th>PM_A</th><th>PM_B</th><th>PIN_A</th><th>PIN_B</th>
+              <th>Stake_A</th><th>Stake_B</th><th>Duel_A</th><th>Duel_B</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+    <section class="card">
+      <div class="card-head">
+        <h2>套现仓位</h2>
+        <button type="button" class="mini js-refresh">刷新</button>
+      </div>
+      <div class="scroll">
+        <table id="tbl-pos">
+          <thead>
+            <tr>
+              <th>状态</th><th>事件</th><th>左买</th><th>右买</th>
+              <th>成本</th><th>手续费</th><th>利率</th><th>多久结算</th><th>一单利润</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <aside id="drawer" class="drawer hidden">
+    <div class="drawer-panel">
+      <h2>设置</h2>
+      <label>odds-api.io key
+        <input id="key-oai" type="password" autocomplete="off" placeholder="粘贴后保存，热更新" />
+      </label>
+      <p id="key-meta" class="muted"></p>
+      <label>轮询秒数
+        <input id="key-poll" type="number" min="30" max="3600" step="10" />
+      </label>
+      <label>访问口令（留空不改）
+        <input id="key-dash" type="password" autocomplete="new-password" />
+      </label>
+      <div class="row">
+        <button id="btn-save" type="button">保存</button>
+        <button id="btn-refresh" type="button">立刻刷新</button>
+      </div>
+      <p id="set-msg" class="muted"></p>
+      <button id="btn-close" type="button" class="ghost">关闭</button>
+    </div>
+  </aside>
+
+  <script src="/app.js"></script>
+</body>
+</html>

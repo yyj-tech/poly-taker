@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+*.key
+.odds_api_io_key
+**/apis/.odds_api_io_key
+node_modules/
+.DS_Store
+scans/
+arb-radar-web/data/keys.json
+**/keys.json
+!**/keys.example.json

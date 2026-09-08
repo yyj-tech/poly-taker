@@ -1,0 +1,100 @@
+{
+  "scan_cst": "2026-08-19 11:06",
+  "timezone": "Asia/Shanghai",
+  "analysis_only": true,
+  "high_value_count": 0,
+  "high_value": "没有",
+  "quiet_delivery": "NO",
+  "quiet_reason": "主盘 PM≥0.02（VISION vs BoomBoys: 0.72/0.29→0.70/0.31；Orbit Anonymo vs Barcząca: 0.60/0.42→0.63/0.42）；PIN 实质（VISION vs BoomBoys 1.316/3.36→1.345/3.2；HLE.C vs FOX.Y 2.5/1.538→2.41/1.575；DK vs HLE 1.99/1.84→2.01/1.813；BRO vs DNS 2.02/1.806→2.03/1.8；GEN vs KT 1.152/5.1→1.152/5.11；LNG vs WBG 4.11/1.222→4.01/1.232）；利率变动≥0.5个百分点：VISION vs BoomBoys −5.02%→−1.95%（+3.07个百分点）；Liquid vs Yandex −4.78%→−2.02%（+2.76个百分点）；HLE.C vs FOX.Y −3.35%→−1.90%（+1.45个百分点）；LNG vs WBG −4.80%→−4.19%（+0.61个百分点）；Stake/Duel 实质（Stake DK vs HLE 1.88/1.92→1.9/1.9；Duel Iron Wing vs Spirit 1.8/2.06→1.82/2.02）；微正条数 6→7；无新鲜 HV；GEN/KT 仍负（KT ask 0.17 未<0.1667）；LNG 未翻正；VIT.Bee/VISION 未翻正",
+  "closest_3_open_by_rate": [
+    {
+      "event": "Vitality.Bee vs IJC",
+      "rate": -0.006009572399690122,
+      "profit_u": -2.648106700000028,
+      "fresh_both_sides": true,
+      "league": "LFL"
+    },
+    {
+      "event": "Iron Wing vs Spirit",
+      "rate": -0.008230952367401229,
+      "profit_u": -1.5795987662924347,
+      "fresh_both_sides": true,
+      "league": "TI"
+    },
+    {
+      "event": "BRO vs DNS",
+      "rate": -0.011001916870590323,
+      "profit_u": -5.005937500000016,
+      "fresh_both_sides": true,
+      "league": "LCK"
+    }
+  ],
+  "data_gaps": [
+    "Rift OA/DOCISK/UP2UME listed on odds-api.io but Stake/Duel ML empty",
+    "LEC/LCS match MLs have Stake/Duel but no PM series",
+    "ended series stale PIN / leftover CLOB not used for arb",
+    "BOMBA vs Lodis ENDED Lodis 2-1; leftover CLOB unused",
+    "mCon vs Myth ENDED Myth 2-0; leftover CLOB unused",
+    "DNS.C vs NS.EA ended DNS.C 2-1; leftover CLOB not used as series ML",
+    "NS vs DNS ended DNS 3-0; leftover CLOB unused; PIN KeSPA empty",
+    "GEN.GA vs BRO.C ENDED BRO.C 2-1; leftover CLOB unused; PIN parent removed",
+    "Galions vs KCB ENDED Galions 2-0; leftover CLOB unused",
+    "LPL PIN 199353 live with 3 Aug 19 parents only (LNG/WBG, AL/TES, WE/EDG); still 3/9",
+    "LPL Duel/Stake refreshed via odds-api.io Split 3 this hour",
+    "No PM LPL series for IG/NIP/UP/OMG/RNG/FPX in 2026-08-18..08-25; no Aug 18 LPL series",
+    "PIN TI Winner futures still closed, not used as match ML",
+    "Solary vs TLN ENDED TLN 2-0; leftover CLOB unused",
+    "PIN KeSPA empty this hour",
+    "LCK CL 规则不一致不升格 (HLE.C/FOX.Y, KT.C/T1.A, BRO.C/DRX.C, DK.C/DNS.C)",
+    "DOCISK vs BCE PM-only Rift 8/19; no sportsbook leg",
+    "Orbit Anonymo vs Barcząca still PM-only Rift 8/20; no sportsbook leg"
+  ],
+  "vs_0801": {
+    "status_changes": [
+      "mCon vs Myth: still 已结束 (Myth 2-0)",
+      "Solary vs TLN: still 已结束 (TLN 2-0)",
+      "Orbit Anonymo vs Forsaken: still 已结束 (Forsaken 2-0)",
+      "DNS.C vs NS.EA: still 已结束 (DNS.C 2-1)",
+      "NS vs DNS: still 已结束 (DNS 3-0)",
+      "GEN.GA vs BRO.C: still 已结束 (BRO.C 2-1)",
+      "Galions vs KCB: still 已结束 (Galions 2-0)"
+    ],
+    "new_matches": [],
+    "pm_ask_move_ge_0p02": [
+      "VISION vs BoomBoys: 0.72/0.29→0.70/0.31",
+      "Orbit Anonymo vs Barcząca: 0.60/0.42→0.63/0.42"
+    ],
+    "pm_smaller_moves": [
+      "Liquid vs Yandex: 0.55/0.47→0.54/0.47",
+      "FOX.Y vs GEN.GA: 0.82/0.20→0.83/0.20",
+      "LGD vs BLG: 0.19/0.82→0.20/0.81",
+      "TES vs BLG: 0.38/0.65→0.38/0.64",
+      "JDG vs TES: 0.44/0.58→0.45/0.58",
+      "UP2UME vs d1: 0.08/0.93→0.08/0.94",
+      "DOCISK vs BCE: 0.46/0.55→0.46/0.56"
+    ],
+    "pin_material_move": true,
+    "pin_notes": "VISION vs BoomBoys 1.316/3.36→1.345/3.2；HLE.C vs FOX.Y 2.5/1.538→2.41/1.575；DK vs HLE 1.99/1.84→2.01/1.813；BRO vs DNS 2.02/1.806→2.03/1.8；GEN vs KT 1.152/5.1→1.152/5.11；LNG vs WBG 4.11/1.222→4.01/1.232",
+    "fresh_hv_1p5": false,
+    "live_check": "无滚球场；LPL LNG/AL/WE 仍赛前（LNG 15:00 CST）；HLE.C/KT.C 13:00 CST 仍赛前；GEN 16:00 CST 仍赛前",
+    "hle_c_path": "PIN FOX.Y 1.575 vs PM HLE.C 0.38 rate -0.0190279491269514; LCK CL 规则不一致不升格; not flipped",
+    "gen_kt_path": "Duel 1.18 vs PM KT 0.17 still negative; L1-only; KT ask 0.17 not <0.1667; PIN GEN 1.152/5.11; Stake GEN 1.17/5.0",
+    "lng_wbg_path": "PIN WBG 1.232 vs PM LNG 0.23 rate -0.04189318383032912; not flipped positive",
+    "bomba_path": "ENDED Lodis 2-1; leftover CLOB unused; was live @04:04",
+    "iron_wing_path": "−0.82%, PIN 1.735/2.12",
+    "lpl_pin_parents": 3,
+    "lck_cl_parents": 4,
+    "lfl_parents": 2,
+    "champion_yes_ge_0p02": true,
+    "rate_moves_ge_0p5pp": [
+      "VISION vs BoomBoys −5.02%→−1.95%（+3.07个百分点）",
+      "Liquid vs Yandex −4.78%→−2.02%（+2.76个百分点）",
+      "HLE.C vs FOX.Y −3.35%→−1.90%（+1.45个百分点）",
+      "LNG vs WBG −4.80%→−4.19%（+0.61个百分点）"
+    ],
+    "flips": []
+  },
+  "file_hourly_md": "hourly-2026-08-19-1106.md",
+  "champion_table_rewritten": true,
+  "champion_rewrite_reason": "LCK 2026 赛季冠军 T1 0.19→0.22；LCK 2026 赛季冠军 Dplus 0.244→0.211；LEC 2026 夏季冠军 Team Vitality 0.189→0.116；LEC 2026 夏季冠军 Team Heretics 0.155→0.13；LCS 2026 夏季冠军 FlyQuest 0.088→0.443"
+}

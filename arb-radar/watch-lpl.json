@@ -1,0 +1,120 @@
+{
+  "scan_cst": "2026-08-30 20:42",
+  "timezone": "Asia/Shanghai",
+  "analysis_only": true,
+  "should_send": "YES",
+  "should_send_reasons": [
+    "比赛结束 gamma ended=true（live→ended）",
+    "比分 000-000|1-2|Bo5→000-000|1-3|Bo5",
+    "PM ask JDG 0.37→0.001",
+    "PM ask WE 0.64→—"
+  ],
+  "should_send_yes_triggers": [
+    "比赛结束 gamma ended=true（live→ended）",
+    "比分 000-000|1-2|Bo5→000-000|1-3|Bo5",
+    "PM ask JDG 0.37→0.001",
+    "PM ask WE 0.64→—"
+  ],
+  "should_send_no_notes": [],
+  "oai_429": false,
+  "oai_no_key": true,
+  "gt_0p5_count": 0,
+  "high_value": "没有",
+  "routine_deleted": true,
+  "routine_should_delete": true,
+  "table1": [
+    {
+      "状态": "已结束",
+      "事件": "JDG vs WE",
+      "队A": "JDG",
+      "队B": "WE",
+      "PM_A": 0.001,
+      "PM_B": null,
+      "PIN_A": null,
+      "PIN_B": null,
+      "Stake_A": null,
+      "Stake_B": null,
+      "Duel_A": null,
+      "Duel_B": null,
+      "slug": "lol-jdg-we-2026-08-30",
+      "pm_start_cst": "2026-08-30 17:00",
+      "clob_sz_A": 740386.29,
+      "clob_sz_B": null,
+      "clob_thick_A": true,
+      "clob_thick_B": false,
+      "pin_id": 1635127103,
+      "pin_parent": 1634882234,
+      "pin_limit": null,
+      "pin_american": null,
+      "pin_american_note": "parent+child /markets/straight both HTTP 204 empty; skip PIN paths; matchups still list parent+live child but no markets",
+      "pin_live_child": true,
+      "pin_period0_status": "204_empty",
+      "gamma_ended": true,
+      "gamma_live": false,
+      "gamma_closed": false,
+      "score": "000-000|1-3|Bo5",
+      "period": "4/5",
+      "winner_note": "outcomePrices JDG 0.0005 / WE 0.9995；WE 胜 3-1"
+    }
+  ],
+  "table2": [],
+  "vs_prev": [
+    "JDG vs WE 滚球→已结束；比分 000-000|1-2|Bo5 → 000-000|1-3|Bo5",
+    "JDG vs WE PM_A 0.37→0.001（L1 26987.62→740386.29）",
+    "JDG vs WE PM_B 0.64→—（上轮 L1 29033.98；本轮 WE 无 asks）",
+    "JDG vs WE PIN 仍 204 空（parent+child）",
+    "Stake/Duel 仍 NO_KEY",
+    "routine_should_delete true（末场结束）"
+  ],
+  "rate_deltas": [
+    {
+      "path": "PIN买JDG|PM买WE",
+      "dpp": null,
+      "old": null,
+      "new": null,
+      "note": "已结束+PIN 204 跳过"
+    },
+    {
+      "path": "PIN买WE|PM买JDG",
+      "dpp": null,
+      "old": null,
+      "new": null,
+      "note": "已结束+PIN 204 跳过"
+    }
+  ],
+  "sources": {
+    "PM": "Gamma slug lol-jdg-we-2026-08-30 Match Winner + CLOB L1 best ask 2026-08-30 20:42 CST",
+    "PIN": "parent 1634882234 + live child 1635127103 /markets/straight both HTTP 204 empty; leagues/199353/matchups 200 but no odds; skip PIN; no X-API-Key",
+    "Stake": "NO_KEY",
+    "Duel": "NO_KEY"
+  },
+  "data_gaps": [
+    "oai_no_key: Stake/Duel = —",
+    "PIN markets 204 empty",
+    "已结束不强制算套利",
+    "未扣提现"
+  ],
+  "best_rate_pct": null,
+  "best_path": null,
+  "tokens": {
+    "JDG": "64717374109977139925022275129628600538061948437780498435102148462767695403200",
+    "WE": "10807762402221251158143623961417949025361451808290240235733029935386536945017",
+    "event_id": "896205",
+    "conditionId": "0xcff62c28139670186b90dd7fb96cbf37f9ca3c98dc30ef2a28d7b4fa303fff54"
+  },
+  "pin_path_used": "none_204_empty",
+  "gamma_status": {
+    "ended": true,
+    "live": false,
+    "closed": false,
+    "score": "000-000|1-3|Bo5",
+    "period": "4/5",
+    "startTime": "2026-08-30T09:00:00Z"
+  },
+  "new_lpl_slugs": [
+    "lol-al-lgd-2026-09-04",
+    "lol-ig1-tes-2026-09-05"
+  ],
+  "note_upcoming": "lol-al-lgd-2026-09-04 已挂但 9/4 开赛，未入本轮表；lol-ig1-tes-2026-09-05（9/5）亦已挂未入表；今日无其他 live LPL",
+  "handoff": "2026-08-30 20:42 CST 盯盘：JDG/WE 已结束（系列 1-3 WE 胜 Bo5，G4 收官）。PM CLOB L1 JDG 0.001（740386.29份）/ WE —（无卖单），上轮 0.37/0.64（26987.62/29033.98）。PIN 父盘 1634882234 + 滚球子盘 1635127103 /markets/straight 仍 HTTP 204 空，PIN 写—，跳过 PIN 路径（matchups 仍挂但无盘口）。表2 没有（已结束不强制算；无博彩腿）。费后>0.5% 没有。高价值 没有。Stake/Duel —（oai_no_key）。should_send YES（比赛结束 ended=true；比分 000-000|1-2|Bo5→000-000|1-3|Bo5；PM ask JDG 0.37→0.001；PM ask WE 0.64→—）。routine 已删（最后一场结束）。"
+}
